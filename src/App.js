@@ -1,16 +1,13 @@
-import Banner from "./components/banner";
-import Footer from "./components/footer";
-import ReviewSection from "./components/review_section";
-import TestimonialCard from "./components/testimonials_card";
-
+import logo from "./logo.svg";
+import "./App.css";
+import Routes from "./routes";
 function App() {
   return (
-    <>
-      <Banner />
-      <TestimonialCard />
-      <ReviewSection />
-      <Footer />
-    </>
+    <div className="App">
+      <main>
+        <Routes />
+      </main>
+    </div>
   );
 }
 
