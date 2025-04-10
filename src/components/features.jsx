@@ -2,7 +2,7 @@ import React from 'react';
 import { FaMapMarkerAlt, FaStar, FaBath, FaBed, FaHome } from 'react-icons/fa';
 import "../assets/css/feature.css"
 import featureImg1 from "../assets/images/feature-1.avif"
-import featureImg2 from "../assets/images/feature-2.jpg"
+import featureImg2 from "../assets/images/feature-2.avif"
 import featureImg3 from "../assets/images/feature-3.jpeg"
 
 const properties = [
