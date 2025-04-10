@@ -2,6 +2,7 @@ import Banner from "../components/banner";
 import FeaturedProperties from "../components/features";
 import Footer from "../components/footer";
 import HeroCompoment from "../components/heroComponent";
+import LocationProperty from "../components/location_property";
 import LoginContainer from "../components/loginDivComponent";
 import PropertyManagement from "../components/property_management";
 import ReviewSection from "../components/review_section";
@@ -11,7 +12,8 @@ export default function HomePage() {
     <>
       <HeroCompoment />
       <LoginContainer />
-      <FeaturedProperties/>
+      <FeaturedProperties />
+      <LocationProperty/>
       <PropertyManagement/>
       <Banner />
       <TestimonialCard />
