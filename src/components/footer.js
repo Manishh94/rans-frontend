@@ -4,7 +4,7 @@ import logo from "../assets/images/rans.png";
 import googlePlay from "../assets/images/google-play.png";
 import appStore from "../assets/images/app-store.png";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -119,4 +119,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
