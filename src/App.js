@@ -1,13 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Routes from "./routes";
+import Footer from "./components/footer";
+
 function App() {
   return (
-    <div className="App">
-      <main>
-        <Routes />
-      </main>
-    </div>
+    <>
+      <Footer />
+    </>
   );
 }
 
