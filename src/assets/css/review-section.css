@@ -1,0 +1,78 @@
+ .footer-wrapper {
+     width: 100%;
+     position: relative;
+     background-color: white;
+     overflow: hidden;
+ }
+
+ .top-white-section {
+     background-color: white;
+     height: 180px;
+ }
+
+ .bottom-orange-section {
+     background-color: #f7941d;
+     padding: 80px 20px 40px;
+     position: relative;
+     z-index: 1;
+ }
+
+ .footer-content-unique {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     z-index: 2;
+ }
+
+ .review-text-unique {
+     text-align: center;
+     margin: 0 40px;
+     color: white;
+ }
+
+ .review-text-unique h2 {
+     margin-bottom: 15px;
+     font-size: 38px;
+     font-weight: 900;
+ }
+
+ .btn-read-unique {
+     background-color: #6a1b9a;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 6px;
+     font-size: 16px;
+     cursor: pointer;
+     margin-left: -200px;
+     margin-top: 32px;
+ }
+
+ .star-card {
+     background: white;
+     color: black;
+     padding: 10px 15px;
+     border-radius: 10px;
+     font-weight: bold;
+     transform: rotate(-10deg);
+ }
+
+ .left-unique-card {
+     margin-right: 20px;
+ }
+
+ .right-unique-card {
+     margin-left: 20px;
+     transform: rotate(10deg);
+ }
+
+ .img-footer-unique {
+     position: absolute;
+     right: 250px;
+     top: 5px;
+     height: 450px;
+     z-index: 3;
+ }
+
+ 
