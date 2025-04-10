@@ -1,4 +1,63 @@
 .main-container{
-  height: 500px;
-  background-color: aquamarine;
+  height: auto;
+  /* background-color: aquamarine; */
+  background-image: url("../public/heroImage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.nabar-class{
+    /* width: 60%; */
+    /* margin-left: 15%; */
+    border-radius: 5px;
+    height: 70px;
+}
+
+.hero-div-h1{
+  color: white;
+  font-weight: 1000;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+}
+
+.search-div{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 50px;
+}
+.search-filde{
+  width: 80% !important; 
+  height: 50px;
+  border:none !important;
+  border-radius:  50px !important;
+}
+
+.search-button{
+  width: 40px;
+  height:40px ;
+  border-radius: 100px !important;
+  background-color: #1da388 !important;
+}
+
+.login-container-row{
+  height: 400px;
+   background-color: rgb(255, 255, 255);
+}
+
+.login-text-div{
+  height: 300px;
+  /* width: 50%; */
+}
+
+.logincontainer-image{
+  height: 400px !important;
+}
+.btn-outline-primary {
+  border-color: blueviolet !important;
+  color: blueviolet !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: white !important;
+  color: blueviolet !important; /* Optional: Keep text color the same on hover */
+  border-color: blueviolet !important; /* Optional: Keep border color same on hover */
 }
