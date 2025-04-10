@@ -38,17 +38,26 @@
   background-color: #1da388 !important;
 }
 
-.login-container-div{
+.login-container-row{
   height: 400px;
-  /* background-color: aquamarine; */
+   background-color: rgb(255, 255, 255);
 }
 
 .login-text-div{
-  /* background-color: antiquewhite; */
   height: 300px;
-  width: 80%;
+  /* width: 50%; */
 }
 
-.logincontainer-imag{
-  height: 400px ;
+.logincontainer-image{
+  height: 400px !important;
+}
+.btn-outline-primary {
+  border-color: blueviolet !important;
+  color: blueviolet !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: white !important;
+  color: blueviolet !important; /* Optional: Keep text color the same on hover */
+  border-color: blueviolet !important; /* Optional: Keep border color same on hover */
 }
