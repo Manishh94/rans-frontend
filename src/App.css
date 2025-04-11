@@ -71,6 +71,13 @@
   border-radius: 5px !important;
 }
 
+.get-started{
+  color: white !important;
+  background-color: #9b59b6 !important;
+  width: 20% !important;
+  height: 50px !important;
+}
+
 .Component3-image{
   width: 60%;
 

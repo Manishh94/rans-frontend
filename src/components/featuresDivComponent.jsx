@@ -1,4 +1,5 @@
 import PinedCard from "./propertyCardComponent";
+import CommenButton from "./buttonComponent";
 export default function BoardComponent() {
   const imageDetails = [
     {
@@ -38,6 +39,8 @@ export default function BoardComponent() {
       ),
     },
   ];
+  // const icon = ;
+
   return (
     <>
       <div className="container-fluid Board-container p-5">
@@ -66,6 +69,15 @@ export default function BoardComponent() {
                   </div>
                 );
               })}
+              <CommenButton
+                buttonText={
+                  <>
+                    Get Started Today!{" "}
+                    <img src="./images/Vector1.png"  className="mx-3" alt="Vector Icon" />
+                  </>
+                }
+                buttonStyle={"get-started ms-5"}
+              />
             </div>
           </div>
         </div>
