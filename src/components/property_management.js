@@ -33,7 +33,7 @@ const PropertyManagement = () => {
       </p>
       <div className="pm-services">
         {services.map((service, index) => (
-          <div className="pm-card">
+          <div className="pm-card" key={index}>
             <div className="pm-card-title">{service.title}</div>
             <img src={service.image} alt={service.title} className="pm-image" />
           </div>
