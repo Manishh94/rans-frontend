@@ -1,7 +1,8 @@
 .main-container{
   height: auto;
+  min-height: 700px;
   /* background-color: aquamarine; */
-  background-image: url("../public/heroImage.jpg");
+  background-image: url("../public/images/home1.png");
   background-size: cover;
   background-position: center;
 }
@@ -49,7 +50,9 @@
 }
 
 .logincontainer-image{
-  height: 400px !important;
+  top: 29%;
+  left : 55%;
+  z-index: 1;
 }
 .btn-outline-primary {
   border-color: blueviolet !important;
@@ -58,6 +61,28 @@
 
 .btn-outline-primary:hover {
   background-color: white !important;
-  color: blueviolet !important; /* Optional: Keep text color the same on hover */
-  border-color: blueviolet !important; /* Optional: Keep border color same on hover */
+  color: #9b59b6 !important; /* Optional: Keep text color the same on hover */
+  border-color:#9b59b6 !important; /* Optional: Keep border color same on hover */
+}
+
+.navLoginButton{
+  color: white !important;
+  background-color: #9b59b6 !important;
+  width: 95px !important;
+}
+
+.Component3-image{
+  width: 70%;
+}
+/* .images-div{
+  height: 400px;
+} */
+.Group8{
+  top: 10%;
+  left: -6%;
+}
+.Group9{
+  top: 35%;
+  left: -10%;
+  z-index: 2;
 }
