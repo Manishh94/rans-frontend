@@ -15,14 +15,14 @@ export default function HomePage() {
       <HeroCompoment />
       <LoginContainer />
       <BoardComponent />
-      {/* <PropertyManagementUI/> */}
-      {/* <FeaturedProperties />
+      <PropertyManagementUI/>
+      <FeaturedProperties />
       <LocationProperty/>
       <PropertyManagement/>
       <Banner />
       <TestimonialCard />
       <ReviewSection />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
