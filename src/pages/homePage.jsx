@@ -5,6 +5,7 @@ import HeroCompoment from "../components/heroComponent";
 import LocationProperty from "../components/location_property";
 import LoginContainer from "../components/loginDivComponent";
 import PropertyManagement from "../components/property_management";
+import PropertyManagementUI from "../components/property_management_ui";
 import ReviewSection from "../components/review_section";
 import TestimonialCard from "../components/testimonials_card";
 export default function HomePage() {
@@ -12,6 +13,7 @@ export default function HomePage() {
     <>
       <HeroCompoment />
       <LoginContainer />
+      <PropertyManagementUI/>
       <FeaturedProperties />
       <LocationProperty/>
       <PropertyManagement/>

@@ -1,0 +1,101 @@
+.property-container {
+    background-color: #1abc9c;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.property-container h2 {
+    color: white;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 444px;
+    font-weight: bolder;
+}
+
+.image-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.single-box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.property-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.single-box h3 {
+    font-size: 24px;
+    margin: 15px 0 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.single-box p {
+    font-size: 14px;
+    color: white;
+}
+
+.cta-button {
+    background-color: #a85cd3;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 650px;
+}
+
+.cta-button:hover {
+    background-color: #9347bb;
+}
+
+@keyframes slideUpGroup {
+    from {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-up-group .single-box {
+    animation: slideUpGroup 0.8s ease-out forwards;
+}
+
+.image-boxes .single-box {
+    opacity: 0;
+    transform: translateY(60px);
+}
+
+.pin-img {
+    width: 45px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.pin-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
