@@ -8,11 +8,13 @@ import PropertyManagement from "../components/property_management";
 import PropertyManagementUI from "../components/property_management_ui";
 import ReviewSection from "../components/review_section";
 import TestimonialCard from "../components/testimonials_card";
+import BoardComponent from "../components/featuresDivComponent";
 export default function HomePage() {
   return (
     <>
       <HeroCompoment />
       <LoginContainer />
+      <BoardComponent />
       <PropertyManagementUI/>
       <FeaturedProperties />
       <LocationProperty/>

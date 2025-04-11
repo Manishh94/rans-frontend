@@ -86,3 +86,28 @@
   left: -10%;
   z-index: 2;
 }
+
+.mamagment-div{
+  /* height: 500px; */
+}
+
+.Board-container{
+  height: auto;
+  background-color: #1abc9c;
+}
+
+.pinedCard{
+  height: 300px;
+  width: 80%;
+  border-radius: 9px !important;
+  box-shadow: rgba(0, 0, 0, 0.37) 3.8px 3.8px 4.7px;
+}
+
+.pin{
+  height: 30px;
+  width: 15%;
+}
+
+.login-container{
+  height: auto;
+}
