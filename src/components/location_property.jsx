@@ -23,7 +23,7 @@ const LocationProperty = () => {
   return (
     <section className="browse-container">
       <h2 className="browse-title">
-        Browse Properties by Location
+        Browse Properties by <br/>Location
       </h2>
       <div className="card-grid">
         {locations.map((loc) => (

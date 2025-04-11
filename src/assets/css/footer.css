@@ -75,6 +75,7 @@
     align-items: center;
     gap: 10px;
     margin-left: -55px;
+    margin-top: -24px;
 }
 
 .contact-info {
@@ -108,11 +109,11 @@
 
 .store-buttons {
     display: flex;
-    gap: 10px;
+    gap: 0px;
 }
 
 .store-buttons img {
-    height: 70px;
+    height: 80px;
     cursor: pointer;
 }
 
@@ -161,12 +162,12 @@
 .newsletter-form button {
     background-color: #a560ae;
     border: none;
-    padding: 8px 14px;
+    padding: 4px 14px;
     color: #fff;
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: -80px;
+    margin-left: -88px;
 }
 
 .social-icons {

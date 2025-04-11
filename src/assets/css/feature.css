@@ -6,8 +6,9 @@
 .title {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 45px;
 }
 
 .property-list {
@@ -65,7 +66,7 @@
 }
 
 .property-details {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: calc(100% - 40px);
@@ -74,7 +75,7 @@
     color: black;
     z-index: 2;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
-    margin: -40px auto 15px;
+    margin: 10px 18px ;
     border-radius: 8px;
 }
 
@@ -102,7 +103,7 @@
 }
 
 .rating-outof {
-    color: #64748b;
+    color: black;
     font-size: 12px;
 }
 
@@ -168,7 +169,6 @@
     background-color: #7e22ce;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .property-image {
         height: 220px;
