@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import CommenButton from "../buttonComponent";
 
 export default function NavBar() {
   return (
@@ -8,6 +9,9 @@ export default function NavBar() {
           <Link className="navbar-brand" to="/">
             Rans
           </Link>
+
+          {/* Login button goes before hamburger */}
+
           <button
             className="navbar-toggler"
             type="button"
@@ -19,10 +23,9 @@ export default function NavBar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div
-            className="collapse navbar-collapse"
-            id="navbarNavAltMarkup"
-          >
+
+          {/* Links container */}
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav mx-auto">
               {["Home", "Rent", "Buy", "Sell", "Services", "Help"].map(
                 (value, index) => {
@@ -31,8 +34,7 @@ export default function NavBar() {
                       key={index}
                       className="nav-link active m-2"
                       aria-current="page"
-                      to="#" 
-      
+                      to="#"
                     >
                       {value}
                     </Link>
@@ -40,15 +42,12 @@ export default function NavBar() {
                 }
               )}
             </div>
-          </div>
-          <div className="d-flex">
-            <button
-              type="button"
-              className="btn btn-primary"
-              // onClick={}
-            >
-              Logout
-            </button>
+            <div className="d-flex order-sm-0 p-2">
+              <CommenButton
+                buttonText={"Login"}
+                buttonStyle={"navLoginButton"}
+              />
+            </div>
           </div>
         </div>
       </nav>
