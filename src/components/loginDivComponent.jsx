@@ -2,9 +2,9 @@ import CommenButton from "./buttonComponent";
 export default function LoginContainer() {
   return (
     <>
-      <div className="container-fluid p-5 ">
-        <div className="row login-container-row pt-5">
-          <div className="col-lg-6 col-md-6 col-sm-12 order-md-2 pt-md-3 d-flex justify-content-center">
+      <div className="container-fluid p-5 login-container">
+        <div className="row login-container-row pt-5 ">
+          <div className="col-lg-6 col-md-6 col-sm-6 order-md-2 pt-md-3 d-flex justify-content-center">
             <div className="position-relative">
               <img
                 className=" Component3-image img-fluid "
@@ -36,7 +36,7 @@ export default function LoginContainer() {
           </div>
 
           <div
-            className="col-lg-6 col-md-6 col-sm-12 d-flex order-md-1 justify-content-center pe-5"
+            className="col-lg-6 col-md-6 col-sm-6 d-flex order-md-1  order-sm-2 justify-content-center pe-5"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
           >

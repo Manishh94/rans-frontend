@@ -7,18 +7,20 @@ import LoginContainer from "../components/loginDivComponent";
 import PropertyManagement from "../components/property_management";
 import ReviewSection from "../components/review_section";
 import TestimonialCard from "../components/testimonials_card";
+import BoardComponent from "../components/featuresDivComponent";
 export default function HomePage() {
   return (
     <>
       <HeroCompoment />
       <LoginContainer />
-      <FeaturedProperties />
-      <LocationProperty/>
-      <PropertyManagement/>
+      <BoardComponent />
+      {/* <FeaturedProperties />
+      <LocationProperty />
+      <PropertyManagement />
       <Banner />
       <TestimonialCard />
       <ReviewSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
