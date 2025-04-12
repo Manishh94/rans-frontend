@@ -60,6 +60,11 @@
     pointer-events: none;
 }
 
+.navbar-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 @media (max-width: 768px) {
     .hero-container {
         height: 150px;

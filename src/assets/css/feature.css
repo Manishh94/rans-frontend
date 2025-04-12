@@ -168,3 +168,42 @@
 .more-btn:hover {
     background-color: #7e22ce;
 }
+
+@media (max-width: 768px) {
+    .property-image {
+        height: 220px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .property-card {
+        max-width: 100%;
+    }
+
+    .property-image {
+        height: 180px;
+    }
+
+    .property-details {
+        padding: 12px;
+    }
+
+    .property-title {
+        font-size: 15px;
+    }
+
+    .property-location,
+    .icon-text,
+    .property-price {
+        font-size: 13px;
+    }
+
+    .more-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

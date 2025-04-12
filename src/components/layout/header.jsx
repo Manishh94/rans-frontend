@@ -4,10 +4,10 @@ import CommenButton from "../buttonComponent";
 export default function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light  navbar-container">
+        <div className="container-fluid navbar-content">
           <Link className="navbar-brand" to="/">
-            Rans
+            <img className="logo h-50 w-75" src="./images/Group1.png" alt="" />
           </Link>
 
           {/* Login button goes before hamburger */}
@@ -49,7 +49,7 @@ export default function NavBar() {
               />
             </div>
           </div>
-        </div>
+          </div>
       </nav>
     </>
   );

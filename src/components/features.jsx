@@ -35,9 +35,14 @@ const properties = [
 ];
 
 const PropertyCard = ({ property }) => (
-  <div className="property-card">
-    <div className="property-image-container">
-      <img src={property.image} alt={property.title} className="property-image" />
+  <div className="property-card"
+    style={{
+    backgroundImage: `url(${property.image})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat"
+  }}>
+    <div className="property-image-container" style={{ height:"250px"}}>
       
       <div className="property-tags">
         <span className="tag rent">For Rent</span>
