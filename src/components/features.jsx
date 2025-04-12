@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaStar, FaBath, FaBed, FaHome } from 'react-icons/fa';
+import {  FaStar, FaBath, FaBed, FaHome } from 'react-icons/fa';
 import "../assets/css/feature.css"
 import featureImg1 from "../assets/images/feature-1.avif"
 import featureImg2 from "../assets/images/feature-2.avif"
@@ -47,12 +47,12 @@ const PropertyCard = ({ property }) => (
     <span className="property-title">{property.title}</span>
     <span className="property-rating">
       <FaStar className="star-icon" />
-      {property.rating}<span className="rating-outof">/5</span>
+      <span className="rating-outof">{property.rating}/5</span>
     </span>
   </div>
   <div className="property-location">
-    <FaMapMarkerAlt className="icon" />
-    {property.location}
+  <i class="fa-solid fa-location-dot" style={{ color: "black" }}></i>
+      {property.location}
   </div>
 
   <div className="price-and-icons">
@@ -80,7 +80,7 @@ const FeaturedProperties = () => (
     </div>
     <div className="more-btn-container">
       <button className="more-btn">
-        Discover more properties &rarr;
+        Discover more properties <i className="fas fa-arrow-right" style={{ marginLeft: "8px" }}></i>
       </button>
     </div>
   </div>

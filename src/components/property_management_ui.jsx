@@ -26,7 +26,7 @@ const PropertyManagementUI = () => {
           </div>
           <img src={propertyUi1} alt="Step 1" className="property-img" />
           <h3>Search and Find Your Property</h3>
-          <p>Users browse the listings.</p>
+          <p style={{ marginLeft: "-114px" }}>Users browse the listings.</p>
        </div>
         <div className="single-box">
           <div className="pin-label">
@@ -34,7 +34,7 @@ const PropertyManagementUI = () => {
             <span>2</span>
           </div>          <img src={propertyUi2} alt="Step 2" className="property-img"/>
           <h3>Schedule a Viewing or Virtual Tour</h3>
-          <p>Book viewings directly on the platform.</p>
+          <p style={{marginLeft: "-40px"}}>Book viewings directly on the platform.</p>
         </div>
         <div className="single-box">
           <div className="pin-label">
@@ -45,7 +45,9 @@ const PropertyManagementUI = () => {
           <p>Automated payments, smart contracts, and more.</p>
         </div>
       </div>
-      <button className="cta-button">Get Started Today !</button>
+      <button className="cta-button">
+            Get Started Today! <i className="fas fa-arrow-right" style={{ marginLeft: "8px" }}></i>
+          </button>
     </div>
   );
 };

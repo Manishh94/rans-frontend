@@ -51,7 +51,7 @@
     left: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -76,4 +76,92 @@
 
 .arrow {
     font-size: 20px;
+}
+
+@media (max-width: 1300px) and (min-width: 851px) {
+    .location-card {
+        width: 30%;
+        height: 260px;
+    }
+
+    .card-grid {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .browse-title {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .browse-title {
+        padding-left: 100px;
+        text-align: center;
+    }
+
+    .browse-title {
+        text-align: center;
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+    .browse-container {
+        padding: 2rem 1rem;
+    }
+
+    .browse-title {
+        font-size: 1.5rem;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-grid {
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .location-card {
+        width: 90%;
+        height: 260px;
+    }
+
+    .badge {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .card-city {
+        font-size: 16px;
+    }
+
+    .discover-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .arrow {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .location-card {
+        height: 220px;
+    }
+
+    .card-city {
+        font-size: 14px;
+    }
+
+    .discover-button {
+        width: 100%;
+        justify-content: center;
+    }
 }

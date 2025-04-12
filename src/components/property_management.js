@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/property-management.css";
-import propertyImg1 from "../assets/images/property-1.avif";
+import propertyImg1 from "../assets/images/property-1.jpeg";
 import propertyImg2 from "../assets/images/property-2.jpg";
 import propertyImg3 from "../assets/images/property-3.png";
 

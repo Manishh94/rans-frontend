@@ -1,31 +1,36 @@
 .property-container {
     background-color: #1abc9c;
     padding: 40px 20px;
-    text-align: center;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .property-container h2 {
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: left;
-    margin-left: 444px;
+    font-size: 28px;
     font-weight: bolder;
+    margin-left: 358px;
 }
 
 .image-boxes {
     display: flex;
-    justify-content: center;
-    gap: 70px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
     margin-bottom: 30px;
 }
 
 .single-box {
-    width: 250px;
+    width: 100%;
+    max-width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: slideUpGroup 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(100px);
 }
 
 .property-img {
@@ -36,15 +41,19 @@
 }
 
 .single-box h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 15px 0 5px;
     color: white;
     font-weight: bolder;
+    text-align: left;
+    word-break: break-word;
 }
 
 .single-box p {
     font-size: 14px;
     color: white;
+    text-align: left;
+    word-break: break-word;
 }
 
 .cta-button {
@@ -56,7 +65,9 @@
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 650px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -860px;
 }
 
 .cta-button:hover {
@@ -64,24 +75,15 @@
 }
 
 @keyframes slideUpGroup {
-    from {
-        transform: translateY(60px);
+    0% {
+        transform: translateY(100px);
         opacity: 0;
     }
 
-    to {
+    100% {
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-.slide-up-group .single-box {
-    animation: slideUpGroup 0.8s ease-out forwards;
-}
-
-.image-boxes .single-box {
-    opacity: 0;
-    transform: translateY(60px);
 }
 
 .pin-img {
@@ -92,10 +94,11 @@
 
 .pin-label {
     display: flex;
-    align-items: center;
     gap: 8px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     font-weight: bold;
+    margin-left: -205px;
 }
+
