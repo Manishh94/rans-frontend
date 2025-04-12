@@ -2,6 +2,9 @@
   height: auto;
   min-height: 700px;
   /* background-color: aquamarine; */
+}
+
+.header-content{
   background-image: url("../public/images/home1.png");
   background-size: cover;
   background-position: center;
@@ -17,7 +20,8 @@
 .hero-div-h1{
   color: white;
   font-weight: 900!important;
-  /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+  font-size: 70px;
+  font-weight: 900;
 }
 
 .search-div{
@@ -82,9 +86,6 @@
   width: 60%;
 
 }
-/* .images-div{
-  height: 400px;
-} */
 /* General styles for larger screens (md, lg, xl) */
 /* Base styles */
 .logincontainer-image {
@@ -133,4 +134,15 @@
 }
 .navbar-container{
   border-radius: 10px !important;
+}
+
+
+
+@media (max-width: 480px) {
+  .hero-div-h1{
+    font-size: 30px;
+  }
+  .header-content .ps-5{
+    padding: 0px !important;
+  }
 }

@@ -174,11 +174,6 @@
         height: 220px;
     }
 
-    .property-details {
-        width: calc(100% - 30px);
-        margin: -35px auto 15px;
-    }
-
     .title {
         font-size: 24px;
     }
@@ -195,8 +190,6 @@
 
     .property-details {
         padding: 12px;
-        width: calc(100% - 20px);
-        margin: -30px auto 12px;
     }
 
     .property-title {

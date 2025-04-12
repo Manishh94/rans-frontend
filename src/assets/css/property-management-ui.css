@@ -102,3 +102,9 @@
     margin-left: -205px;
 }
 
+
+@media (max-width: 480px) {
+  .property-container h2{
+    margin-left: 0px;
+  }
+}

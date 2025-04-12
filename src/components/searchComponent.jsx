@@ -1,6 +1,6 @@
-export default function SearctBar() {
+export default function SearchBar() {
   return (
-    <div className="search-div d-flex align-items-center ">
+    <div className="search-div d-flex align-items-center col-lg-5 col-md-5 col-sm-6">
       <input
         type="email"
         class="form-control search-filde me-2 "

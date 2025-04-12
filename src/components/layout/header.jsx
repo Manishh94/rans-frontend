@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light  navbar-container">
-        <div className="container-fluid">
+        <div className="container-fluid navbar-content">
           <Link className="navbar-brand" to="/">
             <img className="logo h-50 w-75" src="./images/Group1.png" alt="" />
           </Link>
@@ -49,7 +49,7 @@ export default function NavBar() {
               />
             </div>
           </div>
-        </div>
+          </div>
       </nav>
     </>
   );
