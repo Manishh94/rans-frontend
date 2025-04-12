@@ -1,11 +1,11 @@
 import "../assets/css/review-section.css";
-import userImg from "../assets/images/user.png";
+import agentImg from "../assets/images/agent2.png";
 
 const ReviewSection = () => {
   return (
     <>
       <div className="footer-wrapper">
-        <img src={userImg} alt="Review Girl" className="img-footer-unique" />
+        <img src={agentImg} alt="Review Girl" className="img-footer-unique" />
 
         <div className="top-white-section"></div>
 

@@ -78,35 +78,21 @@
     font-size: 20px;
 }
 
-@media (max-width: 1300px) and (min-width: 851px) {
+@media (max-width: 1300px) and (min-width: 768px) {
     .location-card {
-        width: 30%;
-        height: 260px;
+        width: 75% !important;
+        height: 260px !important;
+        margin: 10px 110px;
+    }
+
+    .browse-title {
+        text-align: center;
+        padding-left: 0%;
     }
 
     .card-grid {
-        display: flex;
-        gap: 2rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .browse-title {
-        text-align: center;
-        padding-left: 0%;
-    }
-
-}
-
-@media (max-width: 1024px) {
-    .browse-title {
-        padding-left: 100px;
-        text-align: center;
-    }
-
-    .browse-title {
-        text-align: center;
-        padding-left: 0%;
+        justify-content: space-between;
+        gap: 1rem;
     }
 }
 
@@ -161,7 +147,6 @@
     }
 
     .discover-button {
-        width: 100%;
         justify-content: center;
     }
 }

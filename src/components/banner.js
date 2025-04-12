@@ -1,7 +1,7 @@
 import React from "react";
 import BannerImage from "../assets/images/banner.webp";
 import "../assets/css/banner.css";
-import userImg from "../assets/images/banner-user.png";
+import userImg from "../assets/images/agent1.png";
 
 const Banner = () => {
   return (

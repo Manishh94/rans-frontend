@@ -55,6 +55,34 @@
     margin: 15px auto;
 }
 
+@media (min-width: 769px) and (max-width: 1300px) {
+    .property-management {
+        margin-left: 0px
+    }
+
+    .pm-title {
+        text-align: center;
+    }
+
+    .pm-subtitle {
+        text-align: center;
+    }
+
+     .pm-services {
+         justify-content: center;
+         gap: 40px;
+     }
+
+     .pm-card {
+         width: 300px;
+     }
+
+     .pm-image {
+         width: 260px;
+         height: 260px;
+     }
+ }
+
 @media (max-width: 768px) {
     .property-management {
         margin-left: 0;
@@ -81,7 +109,6 @@
 
     .pm-card {
         width: 90%;
-        max-width: 350px;
         margin-left: 20px;
     }
 

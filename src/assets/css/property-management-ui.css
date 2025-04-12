@@ -102,6 +102,38 @@
     margin-left: -205px;
 }
 
+@media (max-width: 1600px) and (min-width: 768px) {
+    .image-boxes {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .single-box {
+        max-width: 260px;
+    }
+
+    .cta-button {
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .property-container h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .pin-label {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .single-box p {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+}
+
  @media (max-width: 768px) {
     .property-container h2 {
         text-align: center;
@@ -132,7 +164,7 @@
     }
 
     .single-box {
-        max-width: 100%;
+        max-width: 70%;
     }
 }
 

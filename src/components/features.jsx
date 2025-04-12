@@ -2,10 +2,12 @@ import React from 'react';
 import { FaStar, FaBath, FaBed, FaHome } from 'react-icons/fa';
 import Slider from "react-slick"; 
 import "../assets/css/feature.css";
-import featureImg1 from "../assets/images/feature-1.avif";
-import featureImg2 from "../assets/images/feature-2.avif";
+import featureImg1 from "../assets/images/feature-1.png";
+import featureImg2 from "../assets/images/feature-2.jpeg";
 import featureImg3 from "../assets/images/feature-3.jpeg";
 import useIsMobile from '../hooks/useIsMobile';
+import { LuBath } from 'react-icons/lu';
+import { RiSofaLine } from 'react-icons/ri';
 
 const properties = [
   {
@@ -65,9 +67,9 @@ const PropertyCard = ({ property }) => (
         <div className="price-and-icons">
           <div className="property-price">{property.price}</div>
           <div className="property-icons">
-            <div className="icon-text"><FaHome /> 1</div>
+            <div className="icon-text"><RiSofaLine /> 1</div>
             <div className="icon-text"><FaBed /> 2</div>
-            <div className="icon-text"><FaBath /> 1</div>
+            <div className="icon-text"><LuBath /> 1</div>
           </div>
         </div>
       </div>

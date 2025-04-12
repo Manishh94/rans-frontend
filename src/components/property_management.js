@@ -4,6 +4,7 @@ import "../assets/css/property-management.css";
 import propertyImg1 from "../assets/images/property-1.jpeg";
 import propertyImg2 from "../assets/images/property-2.jpg";
 import propertyImg3 from "../assets/images/property-3.png";
+import useIsMobile from "../hooks/useIsMobile";
 
 const services = [
   {
@@ -21,7 +22,7 @@ const services = [
 ];
 
 const PropertyManagement = () => {
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = useIsMobile();
 
   const settings = {
     dots: true,
@@ -29,6 +30,7 @@ const PropertyManagement = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
   };
 
   return (
