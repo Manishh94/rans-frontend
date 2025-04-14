@@ -4,7 +4,7 @@ import useIsMobile from '../hooks/useIsMobile';
 import "../assets/css/location-property.css";
 import locationImg1 from "../assets/images/location-1.jpg";
 import locationImg2 from "../assets/images/location-2.jpg";
-import locationImg3 from "../assets/images/location-3.jpeg";
+import locationImg3 from "../assets/images/location-3.png";
 
 const locations = [
   { city: 'Nairobi', image: locationImg1 },
