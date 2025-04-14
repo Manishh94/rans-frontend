@@ -8,12 +8,12 @@
     font-weight: bold;
     margin-bottom: 50px;
     text-align: left;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .property-list {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
 }
