@@ -44,7 +44,7 @@ const PropertyManagement = () => {
   };
 
   return (
-    <div className="property-management container-fluid">
+    <div className="property-management container">
       <div className="row ps-5">
         <h2 className="pm-title">
           Full-Service Property <br />
