@@ -3,13 +3,13 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
-.browse-title {
+/* .browse-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: left;
     padding-left: 288px;
-}
+} */
 
 .card-grid {
     display: flex;

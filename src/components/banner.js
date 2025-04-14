@@ -7,8 +7,9 @@ const Banner = () => {
   return (
     <>
       <div className="white-user-container"></div>
-      <div className="hero-container">
-        <img src="./images/banner.webp" alt="Property Manager" className="hero-image" />
+      <div className="hero-container position-relative">
+        <img src="./images/Rectangle4.png" alt="Property Manager" className="hero-image position-absolute t-0 " />
+        <img src="./images/board2.png" alt="Property Manager" className="hero-image " />
         <img src={userImg} alt="user" className="user-image" />
 
         <div className="hero-content">
