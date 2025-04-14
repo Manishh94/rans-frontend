@@ -172,6 +172,12 @@
     background-color: #7e22ce;
 }
 
+@media (max-width: 1300px) and (min-width: 1024px) {
+    .title {
+        text-align: center;
+    }
+}
+
 @media (min-width: 768px) {
     .property-list {
         justify-content: space-between;

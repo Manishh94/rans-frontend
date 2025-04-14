@@ -78,21 +78,23 @@
     font-size: 20px;
 }
 
-@media (max-width: 1300px) and (min-width: 768px) {
+@media (max-width: 1300px) and (min-width: 1024px) {
+    .card-grid {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
     .location-card {
-        width: 75% !important;
-        height: 260px !important;
-        margin: 10px 110px;
+        width: 30%;
+        height: 260px;
+        margin: 10px;
     }
 
     .browse-title {
         text-align: center;
-        padding-left: 0%;
-    }
-
-    .card-grid {
-        justify-content: space-between;
-        gap: 1rem;
+        padding-left: 0px;
     }
 }
 
