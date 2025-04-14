@@ -7,16 +7,28 @@ import propertyImg3 from "../assets/images/property-3.png";
 
 const services = [
   {
-    title: "Tenant Management",
+    title: (
+      <h6>
+        Tenant <br /> Management
+      </h6>
+    ),
     image: "./images/object1.png",
+    style: "mamagment-image-one",
   },
   {
-    title: "Rent Collection & Lease Agreements",
-    image: propertyImg2,
+    title: <h6>Rent Collection & <br/>Lease Agreements</h6>,
+    image: "./images/managmentImage3.png",
+    style: "mamagment-image-second",
   },
   {
-    title: "Maintenance Requests",
-    image: propertyImg3,
+    title: (
+      <h6>
+        Maintenance
+        <br /> Requests
+      </h6>
+    ),
+    image: "./images/managmentImage4.png",
+    style: "mamagment-image-third",
   },
 ];
 
@@ -32,16 +44,18 @@ const PropertyManagement = () => {
   };
 
   return (
-    <div className="property-management">
-      <h2 className="pm-title">
-        Full-Service Property <br />
-        Management
-      </h2>
-      <p className="pm-subtitle">
-        Let us manage your property with our comprehensive services, from rent{" "}
-        <br />
-        collection to maintenance.
-      </p>
+    <div className="property-management container-fluid">
+      <div className="row ps-5">
+        <h2 className="pm-title">
+          Full-Service Property <br />
+          Management
+        </h2>
+        <p className="pm-subtitle">
+          Let us manage your property with our comprehensive services, from rent{" "}
+          <br />
+          collection to maintenance.
+        </p>
+      </div>
 
       {isMobile ? (
         <Slider {...settings}>
@@ -59,15 +73,17 @@ const PropertyManagement = () => {
           ))}
         </Slider>
       ) : (
-        <div className="pm-services">
+        <div className="pm-services row d-flex justify-content-around">
           {services.map((service, index) => (
-            <div className="pm-card" key={index}>
-              <div className="pm-card-title">{service.title}</div>
-              <img
-                src={service.image}
-                alt={service.title}
-                className="pm-image"
-              />
+            <div className="pm-card col-md-3 col-sm-12" key={index}>
+              <div className="pm-card-title ">{service.title}</div>
+              <div className="pm-image-div d-flex justify-content-center ">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className={service.style}
+                />
+              </div>
             </div>
           ))}
         </div>
