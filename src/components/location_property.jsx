@@ -9,7 +9,7 @@ import locationImg3 from "../assets/images/location-3.jpeg";
 const locations = [
   { city: "Nairobi", image: locationImg1 },
   { city: "Kampala", image: locationImg2 },
-  { city: "Juba", image: "./images/cardImage3.jpeg" },
+  { city: "Juba", image: locationImg3 }
 ];
 
 const LocationProperty = () => {
