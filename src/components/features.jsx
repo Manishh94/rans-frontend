@@ -12,7 +12,7 @@ const properties = [
     location: 'Juba , South Sudan',
     price: '$300',
     rating: '4.6',
-    image: featureImg1,
+    image: "./images/featureImage2.png",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const properties = [
     location: 'Juba , South Sudan',
     price: '$300',
     rating: '4.6',
-    image: featureImg2,
+    image: "./images/featureImage1.png",
   },
   {
     id: 3,
