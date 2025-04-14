@@ -8,7 +8,7 @@ const Banner = () => {
     <>
       <div className="white-user-container"></div>
       <div className="hero-container">
-        <img src={BannerImage} alt="Property Manager" className="hero-image" />
+        <img src="./images/banner.webp" alt="Property Manager" className="hero-image" />
         <img src={userImg} alt="user" className="user-image" />
 
         <div className="hero-content">

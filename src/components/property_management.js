@@ -8,7 +8,7 @@ import propertyImg3 from "../assets/images/property-3.png";
 const services = [
   {
     title: "Tenant Management",
-    image: propertyImg1,
+    image: "./images/object1.png",
   },
   {
     title: "Rent Collection & Lease Agreements",

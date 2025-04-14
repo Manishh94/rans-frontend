@@ -35,7 +35,7 @@ const properties = [
 ];
 
 const PropertyCard = ({ property }) => (
-  <div className="property-card"
+  <div className="property-card col-md-3 col-sm-6 col-lg-3 mx-3"
     style={{
     backgroundImage: `url(${property.image})`,
     backgroundSize: "cover",
@@ -88,8 +88,8 @@ const FeaturedProperties = () => {
 
   return (
     <div className="container">
-      <div className="featured-properties">
-        <h2 className="title">Featured Properties</h2>
+      <div className="featured-properties row">
+        <h2 className="title ms-5">Featured Properties</h2>
 
         {isMobile ? (
           <Slider {...sliderSettings} className="property-list">
@@ -97,7 +97,7 @@ const FeaturedProperties = () => {
               <PropertyCard key={property.id} property={property} />
             ))}
           </Slider>
-        ) : (
+        ) : ( 
           <div className="property-list grid-view">
             {properties.map(property => (
               <PropertyCard key={property.id} property={property} />
@@ -105,7 +105,7 @@ const FeaturedProperties = () => {
           </div>
         )}
 
-        <div className="more-btn-container">
+        <div className="more-btn-container my-4">
           <button className="more-btn">
             Discover more properties <i className="fas fa-arrow-right" style={{ marginLeft: "8px" }}></i>
           </button>
