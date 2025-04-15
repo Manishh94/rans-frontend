@@ -1,8 +1,8 @@
 .property-container {
     background-color: #1abc9c;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     font-family: Arial, sans-serif;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .property-container h2 {
@@ -11,14 +11,14 @@
     text-align: left;
     font-size: 28px;
     font-weight: bolder;
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 
 .image-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 158px;
+    /* 5gap: 158px; */
     margin-bottom: 30px;
 }
 
